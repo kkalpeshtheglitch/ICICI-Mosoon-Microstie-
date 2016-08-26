@@ -1,0 +1,620 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+	font-family: 'ZurichBT-Roman';
+	/*color: #fff;*/
+}
+
+@font-face {
+    font-family: 'ZurichBT-Roman';
+    src: url(../fonts/ZurichBT-Roman.eot?#iefix) format('embedded-opentype'), url(../fonts/ZurichBT-Roman.woff) format('woff'), url(../fonts/ZurichBT-Roman.ttf) format('truetype'), url(../fonts/ZurichBT-Roman.svg#Respective2.0) format('svg');
+}
+
+/*@font-face {
+    font-family: 'ZurichBT-RomanCondensed';
+    src: url(../fonts/ZurichBT-RomanCondensed.eot?#iefix) format('embedded-opentype'), url(../fonts/ZurichBT-RomanCondensed.woff) format('woff'), url(../fonts/ZurichBT-RomanCondensed.ttf) format('truetype'), url(../fonts/ZurichBT-RomanCondensed.svg#Respective2.0) format('svg');
+}
+
+@font-face {
+    font-family: 'ZurichBT-LightCondensed';
+    src: url(../fonts/ZurichBT-LightCondensed.eot?#iefix) format('embedded-opentype'), url(../fonts/ZurichBT-LightCondensed.woff) format('woff'), url(../fonts/ZurichBT-LightCondensed.ttf) format('truetype'), url(../fonts/ZurichBT-LightCondensed.svg#Respective2.0) format('svg');
+}
+
+@font-face {
+    font-family: 'ZurichBT-BoldCondensed';
+    src: url(../fonts/ZurichBT-BoldCondensed.eot?#iefix) format('embedded-opentype'), url(../fonts/ZurichBT-BoldCondensed.woff) format('woff'), url(../fonts/ZurichBT-BoldCondensed.ttf) format('truetype'), url(../fonts/ZurichBT-BoldCondensed.svg#Respective2.0) format('svg');
+}
+
+@font-face {
+    font-family: 'ZurichBT-Bold';
+    src: url(../fonts/ZurichBT-Bold.eot?#iefix) format('embedded-opentype'), url(../fonts/ZurichBT-Bold.woff) format('woff'), url(../fonts/ZurichBT-Bold.ttf) format('truetype'), url(../fonts/ZurichBT-Bold.svg#Respective2.0) format('svg');
+}
+
+@font-face {
+    font-family: 'ZurichBT-LightItalic';
+    src: url(../fonts/ZurichBT-LightItalic.eot?#iefix) format('embedded-opentype'), url(../fonts/ZurichBT-LightItalic.woff) format('woff'), url(../fonts/ZurichBT-LightItalic.ttf) format('truetype'), url(../fonts/ZurichBT-LightItalic.svg#Respective2.0) format('svg');
+}*/
+
+
+img {
+	max-width: 100%;
+	border:none;
+}
+
+ol,li {
+	list-style-type: none;
+}
+
+a {
+	-webkit-transition:all .5s;
+	-moz-transition:all .5s;
+	-ms-transition:all .5s;
+	-o-transition:all .5s;
+	transition:all .5s;
+}
+
+button {
+	border: none;
+}
+
+button:hover, button:active, button:focus, {
+	outline: none;
+}
+
+p {
+	color: #305774;
+	font-family: 'ZurichBT-Roman';
+	font-size: 15px;
+}
+
+h1 {
+	color: #305774;
+	font-family: 'ZurichBT-Roman';
+	font-size: 32px;
+	font-weight: bold;
+	text-transform: capitalize;
+	letter-spacing: 10px;
+}
+
+h3 {
+	font-family: 'ZurichBT-Roman';
+	font-size: 28px;
+	text-transform: capitalize;
+}
+
+h6 {
+	color: #305774;
+	font-family: 'ZurichBT-Roman';
+	font-size: 22px;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+.col-centered {
+	float: none;
+	text-align: center;
+	margin:auto;
+}
+
+.color-red {
+	color: #af2430
+}
+
+.paddZero {
+	padding: 0 !important;
+}
+
+/*header css start*/
+.navbar-default {
+	background: #e77817;
+	padding: 0;
+	border:none;
+}
+
+/*.navbar-brand {
+	padding: 0px;
+}*/
+
+.navbar-brand img {
+	-webkit-transition:all .5s;
+	-moz-transition:all .5s;
+	-ms-transition:all .5s;
+	-o-transition:all .5s;
+	transition:all .5s;
+}
+
+.navbar-default .navbar-nav>li>a {
+	font-size: 16px;
+	color: #fff;
+	text-transform: capitalize;
+	font-weight: bold;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+	color: #305774;
+	background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+	color: #305774;
+}
+
+.navbar-default .navbar-nav>.active>a {
+	text-decoration: underline;
+}
+
+.navbar-nav {
+	float: right;
+}
+
+/*.shrink {
+	padding: 0px;
+}*/
+
+.navbar-brand {
+	padding: 8px 0 0;
+}
+
+.navbar-brand img {
+	width: 70%;
+	-webkit-transition:all .5s;
+	-moz-transition:all .5s;
+	-ms-transition:all .5s;
+	-o-transition:all .5s;
+	transition:all .5s;
+}
+
+.navbar-nav>li>a {
+	font-size: 14px !important;
+}
+/*header css end*/
+
+#myCarousel .carousel-indicators .active {
+	background-color:#e77817;
+}
+
+.carousel-indicators {
+	left: 10%;
+	bottom: 0;
+}
+
+#myCarousel .carousel-indicators li {
+	border: none;
+	background-color: #fff;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+	background-image: none;
+}
+
+.carousel, .item, .active {
+ 	height: auto;
+ }
+
+ .carousel {
+ 	top: 7%;
+}
+
+
+.mobSlide {
+	display: none;
+}
+/*Our Product css start*/
+.product-section,
+.products-story-section,
+.live-feed-section {
+	background: url(../img/our-prodcuts-bg.jpg) top center no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100%;
+    padding: 75px 0 0;
+}
+
+.product-section {
+	/*padding-bottom: 20px;*/
+    height: auto;
+    /*background-size: inherit;*/
+}
+
+.product-section p,
+.products-story-section p ,
+.live-feed-section p {
+	font-size: 16px;
+}
+
+.product {
+	width: 80%;
+	margin:22px auto 0;
+	cursor: pointer;
+}
+
+.product .icon {
+	position: relative;
+	overflow: hidden;
+}
+
+.product .icon .overlay {
+	display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+    border-radius: 50%;
+    -webkit-transition:all 0.5s;
+    -moz-transition:all 0.5s;
+    -ms-transition:all 0.5s;
+    -o-transition:all 0.5s;
+    transition:all 0.5s;
+}
+
+.product .caption h6 {
+	font-size: 16px;
+}
+
+.prodcut-details  {
+	 margin:20px 0; 
+}
+
+.prodcut-details .content h3 {
+	color: #af2430;
+	font-size: 26px;
+	text-align: left;
+	margin-top: 0;
+}
+
+.prodcut-details .content p {
+	color: #035c77;
+	font-size: 15px;
+	text-align: left;
+}
+
+.prodcut-details .content p ul,
+.prod-info.mobView ul  {
+	margin: 0;
+	padding:0;
+	text-align: left;
+}
+
+.prodcut-details .content p ul h6,
+.prod-info.mobView ul h6 {
+	color: #035c77;
+    font-family: 'ZurichBT-Roman';
+    font-size: 22px;
+    font-weight: normal;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+.prodcut-details .content p ul li,
+.prod-info.mobView ul li {
+	font-family: 'ZurichBT-Roman';
+	font-size: 15px;
+	margin:5px 0;
+    color: #035c77;
+}
+
+.prodcut-details .content p ul li b,
+.prod-info.mobView ul li b{
+	font-family: 'ZurichBT-Roman';
+}
+
+.prod-info ul a {
+	background: #af2430;
+    color: #fff;
+    display: inline-block;
+    font-family: 'ZurichBT-Roman';
+    text-decoration: none;
+    padding: 5px 12px;
+    text-align: center;
+    margin: 10px 0 0;
+}
+
+.prod-info ul a:hover {
+	background: #e77817;
+}
+
+.prodcut-details .content button,
+.prod-info.mobView  button {
+	color: #035c77;
+    font-size: 16px;
+    background: transparent;
+    border: none;
+    padding: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 12px;
+}
+
+.prodcut-details .content button:hover {
+	color: #e77817;
+}
+
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+	background-color: #165c74;
+}
+
+.mCSB_scrollTools .mCSB_draggerRail {
+	background-color: #4c96b2;
+}
+
+.prod-info , .eft-info{
+	display: none;
+}
+
+.prod-info-close {
+	background: none;
+    border: none;
+    color: #af2430;
+    position: absolute;
+    right: 5%;
+    top: -12%;
+    z-index: 9;
+}
+
+.prod-info-close:hover {
+	color: #305774;
+}
+
+.prod-active {
+	border: 5px solid #305774;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.prod-active img {
+    border: 1px solid #305774;
+    border-radius: 50%;
+    padding: 1px;
+}
+
+
+
+
+/*Our Product css end*/
+
+/*products story css start*/
+
+.products-story-section {
+	background: url(../img/products-story-bg.jpg) top center no-repeat;
+	padding: 60px 0 0;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	display: none;
+}
+
+.video {
+    border: 10px solid #fff;
+    border-radius: 6px;
+    box-shadow: 0 0 25px #675e5e;
+    /*float: left;*/
+    display: inline-flex;
+    max-width: 100%;
+    margin: 20px 0 0;
+}
+
+/*products story css end*/
+
+/*live feeds css start*/
+
+.live-feed-section {
+	background: url(../img/live-feeds-bg.jpg) top center no-repeat;
+	height: 180%;
+}
+
+.liveFeeds {
+	/*background: #fff;*/
+	/*border:1px solid #75a6b4;*/
+	display: inline-block;
+	text-align: left;
+	margin: 20px 0 0;
+}
+
+.liveFeeds .twi,
+.liveFeeds .fb {
+	background:#fff;
+}
+
+.liveFeeds .twi {
+	border-left:1px solid #75a6b4;
+	border-bottom:1px solid #75a6b4;
+}
+
+.liveFeeds .fb {
+	border-right:1px solid #75a6b4;
+	border-bottom:1px solid #75a6b4;
+}
+
+.liveFeeds .thead {
+	border-bottom:1px solid #75a6b4;
+	font-family: 'ZurichBT-Roman';
+	font-size: 22px;
+	text-align: center;
+	letter-spacing: 6px;
+	padding: 10px 0;
+}
+
+.liveFeeds .thead i {
+	position: absolute;
+	font-size: 30px;
+	left: 20%;
+}
+
+.liveFeeds .twi .thead {
+    color: #4cbcec;
+    border-top: 4px solid #4cbcec;
+	/*border-right:1px solid #75a6b4;*/
+}
+
+.liveFeeds .twi .thead i {
+	color: #4cbcec;
+}
+
+.liveFeeds .fb .thead {
+    color: #6581c0;
+    border-top: 4px solid #6581c0;
+	/*border-left:1px solid #75a6b4*/
+}
+
+.liveFeeds .fb .thead i {
+	color: #6581c0;
+}
+
+
+.liveFeeds ul {
+	margin:0;
+	padding: 0;
+}
+
+.liveFeeds ul li {
+	padding: 15px 0;
+	display: inline-block;
+	/*border-bottom: 1px solid #75a6b4;*/
+	width: 99%;
+}
+
+.liveFeeds .mCSB_inside > .mCSB_container {
+	margin-right: 0;
+}
+
+.liveFeeds .mCSB_scrollTools {
+	width: 5px;
+}
+
+.liveFeeds ul li:last-child {
+	border-bottom: none;
+}
+
+/*.liveFeeds .twi ul li {
+	border-right: 1px solid #75a6b4;
+}
+
+.liveFeeds .fb ul li {
+	border-left: 1px solid #75a6b4;
+}
+*/
+.liveFeeds .feeds {
+	color: #165c75;
+	padding: 0 30px;
+}
+
+.liveFeeds ul li p {
+	color: #165c75;
+	font-size: 16px;
+}
+
+.liveFeeds ul li p a {
+	color: #165c75;
+	font-weight: bold;
+}
+
+.liveFeeds .user-name {
+	font-family: 'ZurichBT-Roman';
+	float: left;
+	font-style: italic;	
+}
+
+.liveFeeds .user-name {
+	font-family: 'ZurichBT-Roman';
+	float: left;
+	font-style: italic;	
+	font-size: 10px;
+}
+
+.liveFeeds .time {
+	font-family: 'ZurichBT-Roman';
+	font-size: 10px;
+	float: right;
+	font-weight: bold;
+	font-style: italic;
+}
+/*live feeds css end*/
+
+/*footer css start*/
+footer {
+    position: relative;
+    bottom: 0;
+    z-index: 999;
+}
+
+.social-cnnct {
+	position: absolute;
+	bottom: -1px;
+}
+
+.footer-bottom {
+	background: #e77817;
+	height: 75px;
+	line-height: 75px;
+	float: left;
+	width: 100%;
+}
+
+.footer-bottom p {
+	color: #fff;
+	font-size: 16px;
+	margin: 0;
+}
+
+.social-icons {
+    margin: 0;
+    float: right;
+    padding: 25px 0 0;
+}
+
+.social-icons li {
+	float: left;
+	padding: 0 5px;
+}
+
+.social-icons li a {
+    background: url(../img/social-icons.png) no-repeat;
+    float: left;
+    width: 32px;
+    height: 32px;
+}
+
+.social-icons li:nth-of-type(2) a {
+    background-position: -46px 0;
+}
+
+.social-icons li:nth-of-type(3) a {
+    background-position: -92px 0;
+}
+/*footer css end*/
+
+/*other css*/
+
+.carousel .icon-prev,
+.carousel .icon-next {
+    width: 40px;
+    height: 40px;
+    margin-top: -15px;
+    font-size: 26px;
+    background: #e77817;
+    border-radius: 50%;
+}
+
+.carousel .carousel-control {
+	opacity: 9;
+}
+
+
+
+
+
+
+
